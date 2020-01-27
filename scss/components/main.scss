@@ -23,6 +23,9 @@ body{
             }
             .menu{
                 @extend %flex;
+                .button{
+                    font-size: $font-size-medium;
+                }
                 .shop-icons{
                     @extend %flex;
                     }
@@ -34,6 +37,7 @@ body{
                 @include d-flex(center,center);
                 li{
                     margin-right: $margin-right;
+                    font-size: $font-size-medium;
                 }
             }
         }

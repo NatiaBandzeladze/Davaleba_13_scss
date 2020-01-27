@@ -99,12 +99,15 @@ body header .top-navbar, body header .top-navbar .contact, body header .top-navb
 body header .top-navbar {
   justify-content: space-between;
   align-items: center; }
+  body header .top-navbar .menu .button {
+    font-size: 14px; }
 
 body header .navbar ul {
   justify-content: center;
   align-items: center; }
   body header .navbar ul li {
-    margin-right: 50px; }
+    margin-right: 50px;
+    font-size: 14px; }
 
 body header .sticky {
   position: sticky;
@@ -176,9 +179,12 @@ body header .top-navbar, body header .top-navbar .contact, body header .top-navb
 body header .top-navbar {
   justify-content: space-between;
   align-items: center; }
+  body header .top-navbar .menu .button {
+    font-size: 14px; }
 
 body header .navbar ul {
   justify-content: center;
   align-items: center; }
   body header .navbar ul li {
-    margin-right: 50px; }
+    margin-right: 50px;
+    font-size: 14px; }
