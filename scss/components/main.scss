@@ -1,20 +1,40 @@
 @import "./basic/reset.scss";
 @import "../modules/classes.scss";
-@import "/scss/modules/veriables.scss";
-@import "/scss/modules/classes.scss";
+@import "../modules/veriables.scss";
+@import "../modules/mixins.scss";
+
 
 body{
     header{
         .sticky{
             @extend %sticky;
         }
-        .contact{
+        .top-navbar{
             @extend %flex;
-            .email{
-                @extend %flex;
+            @include d-flex(space-between,center);
+            .contact{
+                 @extend %flex;
+                .email{
+                    @extend %flex;
+                 }
+                .phone{
+                    @extend %flex;
+                }
             }
-            .phone{
+            .menu{
                 @extend %flex;
+                .shop-icons{
+                    @extend %flex;
+                    }
+                }
+        }
+        .navbar{
+            ul{
+                @extend %flex;
+                @include d-flex(center,center);
+                li{
+                    margin-right: $margin-right;
+                }
             }
         }
     }

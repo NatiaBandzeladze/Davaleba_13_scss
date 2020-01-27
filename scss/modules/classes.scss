@@ -1,11 +1,12 @@
-@import "/scss/modules/veriables.scss";
+@import "./veriables.scss";
+
 
 %sticky{
         position: sticky;
         top:0;
         height: 42px;
         background-color: #F6F6F6;
-        padding: 14px 0;
+        padding: 14px 1px;
         text-align: center;
         font-size: $font-size-small;
 }
