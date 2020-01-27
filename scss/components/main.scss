@@ -1,0 +1,21 @@
+@import "./basic/reset.scss";
+@import "../modules/classes.scss";
+@import "/scss/modules/veriables.scss";
+@import "/scss/modules/classes.scss";
+
+body{
+    header{
+        .sticky{
+            @extend %sticky;
+        }
+        .contact{
+            @extend %flex;
+            .email{
+                @extend %flex;
+            }
+            .phone{
+                @extend %flex;
+            }
+        }
+    }
+}
