@@ -1,0 +1,25 @@
+{
+  "name": "davaleba_13_scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatiaBandzeladze/Davaleba_13_scss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatiaBandzeladze/Davaleba_13_scss/issues"
+  },
+  "homepage": "https://github.com/NatiaBandzeladze/Davaleba_13_scss#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  }
+}
